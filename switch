@@ -1,0 +1,25 @@
+
+def calculator_switch():
+    calculation = input("enter which you want to preform.\n\
+    A - square\n \
+    B - triangle\n \
+    C - circle\n \
+    D - distance\n \
+    E - midpoint\n")
+   
+    match calculation:
+        case"A":
+            print("you have entered A for square.")
+        case"B":
+            print("you have entered  B for triangle.")
+        case"C":
+            print("you have entered C for circle.")
+        case"D":
+            print("you have entered D for distance.")
+        case"E":
+            print("you have entered E for midpoint.")
+        case _:
+            print("invalid entry.LeBron is the Goat. but try again")
+           
+calculator_switch()
+        
